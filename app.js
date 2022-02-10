@@ -10,7 +10,7 @@ this.addEventListener("mousemove", function(e){
     bubble.style.right='b'+'px';
     bubble.style.top='a'+'px';
  
-    let size=Math.random()*100;
+    let size=Math.random()*170;
     bubble.style.width=20 + size + "px";
     bubble.style.height=20 + size + "px";
     body.appendChild(bubble);
