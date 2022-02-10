@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    
+
+}
+
+body{
+    background-image: url("../img/bck1.jpg");
+    background-size: cover;
+    
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    color:rgb(38, 50, 224);
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    span{
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        pointer-events: none;
+        box-shadow: 0 -3px 5px #fff inset,
+                    0 -10px 25px #ddf1e4 inset,
+                    0 2px 2px #ddf1e4 inset,
+                    2px 0 5px #fff inset,
+                    -2px 0 5px #fff inset,
+                    0 5px 25px #fff inset;
+        animation: animate 6s linear infinite;    
+        transform: translate(-50%,-50%);        
+
+    }
+
+    @keyframes animate{
+        
+        0%{transform: translate(-50%,-50%);
+            opacity: 1;}
+
+
+            10%{
+
+                transform: translate(100%,-500%);
+            opacity: 1;
+
+            }
+
+            30%{
+
+                transform: translate(200%,-900%);
+            opacity: 1;
+
+            }
+
+            50%{
+                transform: translate(650%,-2000%);
+                opacity: 1;
+    
+            }
+        
+            
+            100%{transform: translate(-50%,-1000%);
+                opacity: 1;}
+        
+    }
