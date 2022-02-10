@@ -16,7 +16,7 @@ body{
 .container{
     margin:auto;
     display: flex;
-    width:600px;
+    width:95%;
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
