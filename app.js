@@ -18,7 +18,7 @@ this.addEventListener("mousemove", function(e){
 
     setTimeout(function(){
      bubble.remove();
-    },20000);
+    },5000);
  
 
 });
